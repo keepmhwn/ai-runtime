@@ -1,0 +1,20 @@
+{
+  "name": "@ai-runtime/scheduler",
+  "version": "1.0.0",
+  "description": "Scheduler module for ai-runtime",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scheduler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

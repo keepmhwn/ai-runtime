@@ -1,0 +1,13 @@
+{
+  "name": "@ai-runtime/docs",
+  "version": "1.0.0",
+  "description": "Documentation for ai-runtime",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo \"Start docs development server\"",
+    "build": "echo \"Build docs\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
