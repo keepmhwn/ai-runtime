@@ -1,0 +1,23 @@
+{
+  "name": "@ai-runtime/renderer",
+  "version": "1.0.0",
+  "description": "Rendering engine for ai-runtime",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "renderer",
+    "scheduler",
+    "stream",
+    "ai-runtime"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
