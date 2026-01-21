@@ -1,7 +1,7 @@
 {
-  "name": "@ai-runtime/renderer",
+  "name": "@ai-runtime/core",
   "version": "1.0.0",
-  "description": "Rendering engine for ai-runtime",
+  "description": "Core runtime for ai-runtime",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "renderer",
+    "core",
     "scheduler",
     "stream",
     "ai-runtime"
