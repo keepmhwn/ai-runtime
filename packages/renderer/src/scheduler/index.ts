@@ -1,4 +1,4 @@
-type Task = () => boolean | void;
+type Task = (timestamp: number) => boolean | void;
 
 interface Scheduler {
   schedule(task: Task): void;
@@ -27,14 +27,14 @@ export class RAFScheduler implements Scheduler {
   }
 
   private loop = () => {
-    this.rafId = requestAnimationFrame(() => {
+    this.rafId = requestAnimationFrame((timestamp: number) => {
       if (!this.task) {
         this.rafId = null;
         return;
       }
 
       try {
-        const shouldContinue = this.task();
+        const shouldContinue = this.task(timestamp);
 
         if (shouldContinue !== false) {
           this.loop();
