@@ -13,7 +13,7 @@ class TextStreamer {
   private lastUpdateTime: number | null = null;
 
   constructor(
-    private onChunk: (chunk: string) => void,
+    private onFlush: (text: string) => void,
     options?: Partial<TextStreamerOptions>,
   ) {
     if (options) {
@@ -57,7 +57,7 @@ class TextStreamer {
     const textToAdd = this.queue.slice(0, this.options.charsPerUpdate);
     this.queue = this.queue.slice(this.options.charsPerUpdate);
 
-    this.onChunk(textToAdd);
+    this.onFlush(textToAdd);
     this.lastUpdateTime = timestamp;
 
     return this.queue.length > 0;
