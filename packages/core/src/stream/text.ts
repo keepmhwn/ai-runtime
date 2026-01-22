@@ -65,6 +65,6 @@ class TextStreamer {
 
   reset(): void {
     this.queue = "";
-    this.lastUpdateTime = 0;
+    this.lastUpdateTime = null;
   }
 }
