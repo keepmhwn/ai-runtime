@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "pnpm --parallel --recursive dev",
     "build": "pnpm --recursive build",
+    "build:core": "pnpm --filter @ai-runtime/core build",
     "test": "pnpm --recursive test"
   },
   "keywords": [],
