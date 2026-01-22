@@ -1,9 +1,9 @@
-interface TextStreamerOptions {
+export interface TextStreamerOptions {
   charsPerUpdate: number;
   updateInterval: number;
 }
 
-class TextStreamer {
+export class TextStreamer {
   private options: TextStreamerOptions = {
     charsPerUpdate: 1,
     updateInterval: 10,

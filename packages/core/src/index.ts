@@ -1,1 +1,2 @@
-export { RAFScheduler } from './scheduler';
+export { RAFScheduler, type Scheduler, type Task } from "./scheduler";
+export { TextStreamer, type TextStreamerOptions } from "./stream/text";

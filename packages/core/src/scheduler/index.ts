@@ -1,6 +1,6 @@
-type Task = (timestamp: number) => boolean | void;
+export type Task = (timestamp: number) => boolean | void;
 
-interface Scheduler {
+export interface Scheduler {
   schedule(task: Task): void;
   cancel(): void;
 }
