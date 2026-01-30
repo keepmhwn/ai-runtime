@@ -1,6 +1,6 @@
 {
   "name": "@ai-runtime/react",
-  "version": "1.0.0",
+  "version": "0.0.1-beta",
   "description": "React hooks for ai-runtime",
   "type": "module",
   "main": "dist/index.js",
@@ -22,7 +22,9 @@
   "keywords": [
     "react",
     "hooks",
-    "ai-runtime"
+    "ai-runtime",
+    "ai",
+    "llm"
   ],
   "author": {
     "name": "keepmhwn",
