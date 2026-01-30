@@ -1,1 +1,1 @@
-export { useTextStreamer, type UseTextStreamerOptions } from "./useTextStreamer";
+export { useTextStream, type UseTextStreamOptions } from "./useTextStream";

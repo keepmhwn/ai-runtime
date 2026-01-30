@@ -5,11 +5,11 @@ import {
   RAFScheduler,
 } from "@ai-runtime/core";
 
-export interface UseTextStreamerOptions extends Partial<TextStreamerOptions> {
+export interface UseTextStreamOptions extends Partial<TextStreamerOptions> {
   initialText?: string;
 }
 
-export function useTextStreamer(options?: UseTextStreamerOptions) {
+export function useTextStream(options?: UseTextStreamOptions) {
   const { initialText, ...streamerOptions } = options ?? {};
   const [text, setText] = useState(initialText ?? "");
 
