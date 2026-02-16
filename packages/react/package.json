@@ -1,6 +1,6 @@
 {
   "name": "@ai-runtime/react",
-  "version": "0.0.1-beta",
+  "version": "0.0.1",
   "description": "React hooks for ai-runtime",
   "type": "module",
   "main": "dist/index.js",
