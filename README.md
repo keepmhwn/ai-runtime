@@ -1,3 +1,3 @@
 # ai-runtime
 
-> A client-side runtime for stabilizing streamed AI output execution across text and audio without blocking the main thread.
+> A client-side library that simplifies access to AI SDK features such as LLM, STT, and TTS, allowing developers to integrate advanced AI capabilities with minimal setup and boilerplate code.
